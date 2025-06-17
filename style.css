@@ -1,0 +1,77 @@
+body {
+    font-size: 15pt;
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+}
+
+.boiteP {
+    background: dimgrey;
+    display: grid;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#zoneAjout {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.zoneInput {
+    display: flex;
+    justify-content: center;
+}
+
+#ajouter {
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    background: lightgrey;
+}
+button:active {
+    background: darkgrey;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    margin-top: 5px;
+}
+
+.boutonE {
+    padding: 0;
+    background: gainsboro;
+    border-right: solid white;
+    border-left: none;
+    border-top: none;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+    right: 0;
+    margin-right: 5px;
+}
+
+li {
+    background: gainsboro;
+    padding: 5px 0 5px 5px;
+    border-radius: 10px;
+    
+}
+
+label {
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+.conteneur {
+    display: grid;
+    justify-content: start;
+}
+
